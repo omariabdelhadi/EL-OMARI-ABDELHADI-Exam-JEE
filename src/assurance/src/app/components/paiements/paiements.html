@@ -1,0 +1,23 @@
+<div class="container mt-4">
+  <h2>Liste des Paiements</h2>
+  <table class="table table-bordered table-striped">
+    <thead class="table-dark">
+    <tr>
+      <th>ID</th>
+      <th>Date</th>
+      <th>Montant</th>
+      <th>Type</th>
+      <th>Contrat ID</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let paiement of paiements">
+      <td>{{ paiement.id }}</td>
+      <td>{{ paiement.date | date }}</td>
+      <td>{{ paiement.montant }} DH</td>
+      <td>{{ paiement.type }}</td>
+      <td>{{ paiement.contratId }}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
