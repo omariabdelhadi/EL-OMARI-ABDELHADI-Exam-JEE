@@ -28,8 +28,8 @@ public class ElOmariAbdelhadiApplication {
 
             // ======== Créer des Clients ========
             Client client1 = new Client();
-            client1.setNom("Abdelhadi El Omari");
-            client1.setEmail("abdelhadi@gmail.com");
+            client1.setNom("AMIN");
+            client1.setEmail("AMIN@gmail.com");
             clientRepository.save(client1);
 
             Client client2 = new Client();

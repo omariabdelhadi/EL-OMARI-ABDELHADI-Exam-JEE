@@ -12,6 +12,7 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Inheritance(strategy = InheritanceType.JOINED)
 public abstract class Contrat {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
