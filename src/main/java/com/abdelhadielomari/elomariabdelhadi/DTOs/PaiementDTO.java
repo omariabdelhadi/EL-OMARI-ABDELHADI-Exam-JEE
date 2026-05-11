@@ -18,6 +18,7 @@ public class PaiementDTO {
     private Date date;
     private Double montant;
     private TypePaiement type;
+    private Long contratId;
 
 
 }

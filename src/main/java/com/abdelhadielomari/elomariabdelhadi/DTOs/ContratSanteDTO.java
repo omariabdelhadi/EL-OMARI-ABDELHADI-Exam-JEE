@@ -6,13 +6,16 @@ import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class ContratSanteDTO{
+@EqualsAndHashCode(callSuper = true)
+public class ContratSanteDTO extends ContratDTO{
 
     private NiveauCouverture niveauCouverture;
     private int nombrePersonnesCouvertes;
+    private Long clientId;
 }

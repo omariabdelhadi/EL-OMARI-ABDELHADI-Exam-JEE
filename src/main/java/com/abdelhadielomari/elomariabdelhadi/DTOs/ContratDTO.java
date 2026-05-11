@@ -14,7 +14,8 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public abstract class ContratDTO {
+
+public class ContratDTO {
 
     private Long id;
     private Date dateSouscription;
