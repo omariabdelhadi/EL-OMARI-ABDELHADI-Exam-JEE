@@ -6,10 +6,15 @@ import com.abdelhadielomari.elomariabdelhadi.Mappers.PaiementMapper;
 import com.abdelhadielomari.elomariabdelhadi.entities.Client;
 import com.abdelhadielomari.elomariabdelhadi.entities.Paiement;
 import com.abdelhadielomari.elomariabdelhadi.repositories.PaiementReposetory;
+import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+
+@Service
+@Transactional
 
 public class PaiementImplement implements PaiementServerce{
     @Autowired
