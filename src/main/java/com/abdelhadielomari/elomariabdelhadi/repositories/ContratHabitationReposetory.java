@@ -1,4 +1,4 @@
-package com.abdelhadielomari.elomariabdelhadi.entities.repositories;
+package com.abdelhadielomari.elomariabdelhadi.repositories;
 
 import com.abdelhadielomari.elomariabdelhadi.entities.ContratHabitation;
 import org.springframework.data.jpa.repository.JpaRepository;

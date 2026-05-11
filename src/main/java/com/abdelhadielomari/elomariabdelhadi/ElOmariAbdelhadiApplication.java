@@ -1,9 +1,9 @@
 package com.abdelhadielomari.elomariabdelhadi;
 
 import com.abdelhadielomari.elomariabdelhadi.entities.*;
-import com.abdelhadielomari.elomariabdelhadi.entities.repositories.ClientReposetory;
-import com.abdelhadielomari.elomariabdelhadi.entities.repositories.ContratRepository;
-import com.abdelhadielomari.elomariabdelhadi.entities.repositories.PaiementReposetory;
+import com.abdelhadielomari.elomariabdelhadi.repositories.ClientReposetory;
+import com.abdelhadielomari.elomariabdelhadi.repositories.ContratRepository;
+import com.abdelhadielomari.elomariabdelhadi.repositories.PaiementReposetory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
